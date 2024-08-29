@@ -1,0 +1,23 @@
+{
+  "name": "Portfolio",
+  "description": "Portfolio",
+  "homepage": "https://NAyAyNA.github.io/My--Portfolio",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "6.6.0",
+    "gh-pages": "^6.1.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "*"
+  }
+}
